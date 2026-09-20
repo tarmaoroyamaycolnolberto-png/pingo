@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pingo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cielo:#0281F2; --cielo-hondo:#015FB4; --naranja:#E24A0E;
+    --tinta:#0F1E2E; --tinta-suave:#4A5A6A; --papel:#FFFFFF; --borde:#E3EAF1;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--papel); color:var(--tinta);
+    font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif; line-height:1.6;
+  }
+  header{
+    background:linear-gradient(160deg,var(--cielo),var(--cielo-hondo));
+    color:#fff; padding:56px 16px 64px; text-align:center;
+  }
+  h1{font-family:'Baloo 2',Inter,sans-serif; font-size:44px; margin:0 0 6px; letter-spacing:-.5px}
+  header p{margin:0; opacity:.92; font-size:17px}
+  main{max-width:680px; margin:-32px auto 0; padding:0 16px 64px}
+  .tarjeta{
+    background:#fff; border:1px solid var(--borde); border-radius:20px;
+    padding:24px; box-shadow:0 10px 30px rgba(15,30,46,.07); margin-bottom:16px;
+  }
+  .tarjeta h2{font-family:'Baloo 2',Inter,sans-serif; font-size:22px; margin:0 0 6px}
+  .tarjeta p{margin:0 0 14px; color:var(--tinta-suave)}
+  a.boton{
+    display:inline-block; background:var(--naranja); color:#fff; text-decoration:none;
+    font-weight:700; padding:12px 22px; border-radius:999px;
+  }
+  a.boton.sec{background:#EEF3F8; color:var(--tinta)}
+  footer{text-align:center; color:var(--tinta-suave); font-size:13px; padding:0 16px 48px}
+  footer a{color:var(--cielo-hondo)}
+  @media (max-width:520px){ h1{font-size:34px} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Pingo</h1>
+  <p>Publica lo que necesitas y deja que los negocios de tu zona te oferten.</p>
+</header>
+
+<main>
+  <div class="tarjeta">
+    <h2>Cómo funciona</h2>
+    <p>
+      En Pingo no buscas entre miles de productos: publicas lo que necesitas y los
+      vendedores verificados de tu distrito te hacen llegar su precio. Tú eliges.
+      Cada vendedor conversa contigo en un canal privado, así que nadie ve la oferta
+      del otro.
+    </p>
+    <p>
+      Pingo conecta compradores y vendedores. No cobra, no entrega y no interviene en
+      el pago: ese acuerdo es entre las dos partes.
+    </p>
+  </div>
+
+  <div class="tarjeta">
+    <h2>Privacidad</h2>
+    <p>Qué datos pedimos, qué ven los demás, qué pasa con las fotos de tu DNI y en qué casos moderamos.</p>
+    <a class="boton" href="./privacidad.html">Leer la política de privacidad</a>
+  </div>
+
+  <div class="tarjeta">
+    <h2>Términos y condiciones</h2>
+    <p>Las reglas de uso, la moderación, los reportes entre usuarios y las sanciones.</p>
+    <a class="boton sec" href="./terminos.html">Leer los términos</a>
+  </div>
+
+  <div class="tarjeta">
+    <h2>Eliminar tu cuenta</h2>
+    <p>Puedes hacerlo tú mismo desde la app, o pedirlo por correo si ya no la tienes instalada.</p>
+    <a class="boton sec" href="./eliminar-cuenta.html">Cómo eliminar tu cuenta</a>
+  </div>
+</main>
+
+<footer>
+  Pingo · Huancayo, Perú · <a href="mailto:soportepingo3@gmail.com">soportepingo3@gmail.com</a>
+</footer>
+</body>
+</html>
