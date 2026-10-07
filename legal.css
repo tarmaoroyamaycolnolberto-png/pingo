@@ -1,6 +1,6 @@
 :root{
-  --cielo:#0281F2; --cielo-hondo:#015FB4; --naranja:#E24A0E;
-  --tinta:#0F1E2E; --tinta-suave:#4A5A6A; --papel:#FFFFFF; --borde:#E3EAF1;
+  --cielo:#00B2FF; --cielo-hondo:#0079C2; --naranja:#FF7A00;
+  --tinta:#0F1F5C; --tinta-suave:#5A6A99; --papel:#FFFFFF; --borde:#D9E8F5;
 }
 *{box-sizing:border-box}
 body{
@@ -29,7 +29,7 @@ main ul{margin:0 0 14px; padding-left:20px}
 main li{margin-bottom:6px}
 main a{color:var(--cielo-hondo)}
 .aviso{
-  background:#FFF4EF; border:1px solid #F6C9B4; border-radius:14px;
+  background:#FFF3E8; border:1px solid #FFD2A6; border-radius:14px;
   padding:14px 16px; margin:18px 0;
 }
 .pasos{counter-reset:paso; list-style:none; padding:0}
